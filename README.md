@@ -70,7 +70,7 @@ The Model was evaluated using rolling window forecasting method. The Root Mean S
 * Test Score: 1.120023 MAPE
 
 ## Inference
-Based on the test scores, it is evident that the LSTM Model was better than the other two models. The error rate is only 1.07% which is quiet good and acceptable 
+Based on the test scores, it is evident that the LSTM Model was better than the other two models. The error rate is only 1.004% which is quiet good and acceptable 
 
 ## References
 <a id="1">[1]</a> 
