@@ -49,9 +49,28 @@ Three different types of models were trained and their results were compared.
 ![IndRNN_low](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/indrnn(2).png)
 
 
+## Model Performance
 
+The Model was evaluated using rolling window forecasting method. The Root Mean Squared Error (RMSE) , Mean Absolute Error (MAE) and the Mean Average Percentage Error (MAPE) were chosen as evaluation metrices. 
+##### LSTM Model
 
+* Test Score: 23987.87 RMSE
+* Test Score: 123.022565 MAE
+* Test Score: 1.004987 MAPE
+##### GRU Model
 
+* Test Score: 24265.39 RMSE
+* Test Score: 125.725532 MAE
+* Test Score: 1.071244 MAPE
+
+##### Independent RNN Model
+
+* Test Score: 30128.65 RMSE
+* Test Score: 131.286369 MAE
+* Test Score: 1.120023 MAPE
+
+## Inference
+Based on the test scores, it is evident that the LSTM Model was better than the other two models. The error rate is only 1.07% which is quiet good and acceptable 
 
 ## References
 <a id="1">[1]</a> 
