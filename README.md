@@ -11,7 +11,7 @@ Well, Cloud services are becoming increasingly popular day by day.  Server racks
 **Proactively allocating VMs can increase usage efficiency of underlying resources. If a computing cluster predicts the future resource usage of a user service will increase, it can preemptively scale up to accommodate a higher load. If it predicts that usage will decrease, it can deallocate VMs and save computing resources.**
 
 ## Dataset
-The Dataset contains the CPU Usage data of Microsoft Azure, which is a cloud service, samoled every 5 minutes. The data has three attributes -
+The Dataset contains the CPU Usage data of Microsoft Azure, which is a cloud service, sampled every 5 minutes. The data has three attributes -
 * Max CPU Utilization
 * Average CPU Utilization
 * Minimum CPU Utilization
