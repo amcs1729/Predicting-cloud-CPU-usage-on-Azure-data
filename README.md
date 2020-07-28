@@ -26,22 +26,26 @@ Three different types of models were trained and their results were compared.
 * Independent RNN Model ( 2 layers of 512 units each and a dense layer at the top)
 
 ## Results
+### LSTM MODEL
+##### CPU High
 ![LSTM_high](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/lstm.png)
-
+##### CPU Average
 ![LSTM_avg](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/lstm1.png)
-
-![LSTM_low]https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/lstm2.png)
-
+##### CPU Low
+![LSTM_low](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/lstm2.png)
+### GRU Model
+##### CPU High
 ![GRU_high](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/gru.png)
-
+##### CPU Avergae
 ![GRU_avg](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/gru(1).png)
-
+##### CPU Low
 ![GRU_low](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/gru(2).png)
-
+### Independent RNN Model
+##### CPU High
 ![IndRNN_high](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/indrnn.png)
-
+##### CPU Average
 ![IndRNN_avg](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/indrnn(1).png)
-
+##### CPU Low
 ![IndRNN_low](https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data/blob/master/Images/indrnn(2).png)
 
 
